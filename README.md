@@ -2,13 +2,13 @@
 This is my summer research topic, trying to train convolutional neural network to analyze text data importance and retrieval important units.
 ## Usage
 This project use Wikipedia data for training model.
-To run these script you need :
+### To run these script you need :
   - Python 3.6
   - Tensorflow
   - Gensim
   - NLTK
   - Numpy
-To run these script you should :
+### To run these script you should :
   - Download the Wikipedia whole dump at [HERE] (https://dumps.wikimedia.org)
   - Use WikiExtractor to extract text from xml format at [HERE] (https://github.com/bwbaugh/wikipedia-extractor)
   - Put extracted file into this folder at ./extracted
