@@ -17,9 +17,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 # ==================================================
 
 # Data loading params
-tf.flags.DEFINE_float("dev_sample_percentage", .002, "Percentage of the training data to use for validation")
-tf.flags.DEFINE_string("positive_data_file", "./labeled/wiki_positive_3", "Data source for the positive data.")
-tf.flags.DEFINE_string("negative_data_file", "./labeled/wiki_negative_3", "Data source for the negative data.")
+tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
+tf.flags.DEFINE_string("positive_data_file", "./labeled/wiki_positive", "Data source for the positive data.")
+tf.flags.DEFINE_string("negative_data_file", "./labeled/wiki_negative", "Data source for the negative data.")
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
