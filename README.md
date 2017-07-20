@@ -13,6 +13,8 @@ To run these script you should :
   - Use WikiExtractor to extract text from xml format at [HERE] (https://github.com/bwbaugh/wikipedia-extractor)
   - Put extracted file into this folder at ./extracted
 ## File description
+### pantheon_label.py
+Label data from MIT pantheon, get list of famous people and download related page from Wikipedia. This may take a long time.
 ### data_function.py
 Provides necessary functions for data processing and training.
 ### data_clean.py
@@ -32,6 +34,6 @@ Train a word2vec model for embedding text data into matrix
 - data_clean.py
 - wiki_word2vec.py
 ## CNN Workflow:
-- data_label.py
+- data_label.py / pantheon_label.py
 - wiki_cnn_train.py
 - wiki_cnn_eval.py --eval_train --checkpoint_dir="./runs/your_number/checkpoints/"
